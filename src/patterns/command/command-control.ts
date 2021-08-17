@@ -28,11 +28,12 @@ export class Light {
     }
     public redZero(){
         this.luminosity=this.VERYLOW;
-        this.checkRedLightOn = true;
+        
         return 'red0';
     }
     public redOne(){
         this.luminosity=this.LOW;
+        this.checkRedLightOn = true;
         return "red1"
     }
     public redTwo(){
